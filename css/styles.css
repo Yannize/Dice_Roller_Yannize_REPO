@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 30px;
+}
+
 body {
   background-color: #f39c12;
   min-height: 100vh;
@@ -100,6 +104,7 @@ h3 {
 }
 
 .menu {
+  zoom: 150%;
   width: 100%;
   padding: 10px 20px;
   background-color: rgb(78, 78, 78);
@@ -121,6 +126,7 @@ ul {
   justify-content: center;
 }
 li {
+  cursor: pointer;
   width: 50px;
   height: 50px;
   border: 3px solid black;
@@ -165,6 +171,7 @@ button {
   position: absolute;
   padding: 10px;
   transition: 0.3s;
+  font-size: 1rem;
 }
 button:hover {
   color: white;
@@ -176,7 +183,7 @@ button:hover {
 .menuBtn {
   position: absolute;
   left: 25px;
-  top: 37px;
+  top: 77px;
   border: 2px solid black;
 }
 
@@ -184,7 +191,7 @@ button:hover {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 33px;
+  bottom: 57px;
   border: 2px solid black;
 }
 
