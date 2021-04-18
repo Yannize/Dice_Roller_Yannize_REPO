@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Roll</title>
+  </head>
+  <body>
+    <div class="menu">
+      <h1>Choisissez un nombre de Dés à lancer !</h1>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+      </ul>
+    </div>
+    <div class="scores">
+      <h3 class="scorePlayer">0</h3>
+      <h2>- SCORES -</h2>
+      <h3 class="scoreDealer">0</h3>
+    </div>
+    <button class="menuBtn">Revenir au Menu</button>
+
+    <div id="app">
+      <div class="board" id="player"></div>
+      <div class="board" id="dealer"></div>
+    </div>
+    <button class="playBtn">Lancez les Dés !</button>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
